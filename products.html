@@ -1,0 +1,45 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - Farm2Fork</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Fresh Products</h2>
+    <div class="product-grid">
+      <!-- Repeat this block for each product -->
+      <div class="product-card">
+        <img src="images/product-placeholder.jpg" alt="Butternut Cubes" />
+        <h3>Butternut Cubes</h3>
+        <p>500g - R20*<br>1kg - R35*</p>
+        <button onclick="addToCart('Butternut Cubes')">Add to Cart</button>
+      </div>
+      <!-- Add more product cards here -->
+      <!-- ... based on the list you gave me -->
+    </div>
+  </main>
+
+  <footer>
+    <p>*Prices may differ | farm2forkveg@gmail.com</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

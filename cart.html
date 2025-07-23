@@ -1,0 +1,41 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart - Farm2Fork</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Your Cart</h2>
+    <ul id="cart-list"></ul>
+    <form id="checkout-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="text" placeholder="Delivery Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <button type="submit">Place Order</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>*Prices may differ | Farm2Fork</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
